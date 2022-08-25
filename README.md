@@ -21,3 +21,15 @@ Welcome to Data 180! This course provides an introduction to the core ideas of d
 * Comprehend and create basic numerical and/or logical arguments.
 
 We will make extensive use of the R and R-Studio to generate graphical and numerical representations of data, and apply basic machine learning techniques while we interpret the results. R is a fun and useful computational tool as well as an immediate resume builder!
+
+## Grades ##
+
+Grades will be based on the categories listed below with the corresponding weights.
+
+Assignment                   | Points |   Percent  |
+-----------------------------|--------|------------|
+Exam #1  	         |   20   |    20.0%   |
+Exam #2	           |   20   |	   20.0%   |
+Take-home Final	   |   20   |	   20.0%   |
+Homework           |   40   |    40.0%   |
+**Total points**   | **100** | **100.0%** |

@@ -12,4 +12,10 @@
 
 ## Course description ##
 
-Welcome to Data 180! The course provides an introduction to the core ideas of data science. Topics include data visualization, data wrangling, statistical measures of center, spread, and position, and supervised and unsupervised statistical/machine learning.
+Welcome to Data 180! The course provides an introduction to the core ideas of data science. Topics include data visualization, data wrangling, statistical measures of center, spread, and position, and supervised and unsupervised statistical/machine learning. Upon successful completion of the course a student will be able to
+* Organize, manipulate, and transform data using R,
+* Use Github and RMarkdown to create reproducible reports and maintain a repository for version control,
+* Analyze and interpret data using visualization techniques and statistical summaries,
+* Employ simple supervised and unsupervised machine learning techniques for predictive modeling,
+* Identify internal structure in data organize, manipulate, and transform data in a statistical programming environment,
+* Comprehend and create basic numerical and/or logical arguments.

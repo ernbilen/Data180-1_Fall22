@@ -19,3 +19,5 @@ Welcome to Data 180! This course provides an introduction to the core ideas of d
 * Employ simple supervised and unsupervised machine learning techniques for predictive modeling,
 * Identify internal structure in data organize, manipulate, and transform data in a statistical programming environment,
 * Comprehend and create basic numerical and/or logical arguments.
+
+We will make extensive use of the R and R-Studio to generate graphical and numerical representations of data, and apply basic machine learning techniques while we interpret the results. R is a fun and useful computational tool as well as an immediate resume builder!

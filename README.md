@@ -9,6 +9,8 @@
 
 * **Meeting day/time**: T-Th 9:00-10:15am, Tome 120
 * Office hours also available by appointment.
+* **QRA:** Ashley Doan [doana@dickinson.edu](mailto:doana@dickinson.edu)
+* **QRA Office Hours:** T 6:30-8:30pm @Rector North 1311
 
 ## Course description ##
 

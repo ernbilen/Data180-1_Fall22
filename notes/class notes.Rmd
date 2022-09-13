@@ -1,0 +1,116 @@
+---
+title: "Class notes"
+output: html_document
+date: "2022-09-08"
+---
+
+```{r}
+x <- 5
+y <- 3.6
+z <- "Hello World!"
+typeof(x) # to check the type of an object
+typeof(y)
+typeof(z)
+```
+
+```{r}
+# R index starts from 1, as opposed 0 in Python
+X <- c(1,2,3,4)
+X
+Y <- 1:4
+Y
+Z <- c(2, 45, NA, 1)
+Z
+```
+
+```{r}
+X
+X[2]
+Z
+Z[3:4]
+length(Z) # returns the length of an object
+length(Z[3:4])
+```
+
+```{r}
+rep(c(1,2,3),5) # repeats object n times
+1:5
+seq(1,5,2) # start, stop, increment
+seq(1,4,2)
+```
+
+```{r}
+X
+names(X)
+names(X) <- c("first","second","third","fourth")
+X
+names(X)[3] <- "THIRD"
+X
+```
+
+```{r}
+X <- matrix(1:10,nrow=2,byrow = T) # defines a 2x5 matrix
+X
+matrix(1:10,ncol=5, byrow=T)
+
+```
+
+```{r}
+X[1,3] # returns object position 1,3
+X[2,] # returs the second row
+X[ , c(2,4)] # subsets to columns 2,4
+X[ , -c(2,4)] # removes columns 2,4
+```
+
+```{r}
+length(X) # returns length as a single dim vector
+dim(X) # returns dimension, first number for row
+```
+
+```{r}
+rownames(X) <- c("firstrow","secondrow")
+X
+colnames(X) <- c("col1","col2","col3","col4","col5")
+X
+dimnames(X) # returns a list with rownames and colnames
+```
+
+```{r}
+mylist <- list(rep(2,3), matrix(1:4,nrow=2,byrow=T),c("hello","bye"))
+
+names(mylist) <- c("firstelement","secondelement","thirdelement")
+mylist
+mylist$firstelement # dollar sign to access elements by name
+```
+
+```{r}
+X
+sqrt(X)
+```
+
+
+```{r}
+# Factor variables
+Treatment <- c("Drug","Drug","Drug","Placebo","Placebo","Placebo")
+Treatment <- factor(Treatment) # declares Treatment as a categorical variable
+Treatment
+```
+```{r}
+print.default(Treatment)
+```
+
+```{r}
+Treatment <- c("Drug","Drug","Drug","Placebo","Placebo","Placebo")
+factor(Treatment,levels = c("Drug","Placebo")) # specify categories
+```
+
+```{r}
+myclass <- c("Lower","Middle","Middle","Upper","Lower")
+ordered(factor(myclass))
+
+# if you want to specify levels for order:
+myclass <- c("Lower","Middle","Middle","Upper","Lower")
+ordered(factor(myclass), levels=c("Upper","Middle","Lower"))
+```
+
+

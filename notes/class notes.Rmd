@@ -195,7 +195,7 @@ for(i in myvector){
 myvector <- c('a', 'vector','of','character','values','works','too!')
 for(i in myvector){
   print(i)
-  # browser() in case you want to stop at an iteration for debugging
+  # browser() in case you want to stop at an iteration for debugging, 'n': next line; 'c' continue; 'Q' quit debugging.
 }
 ```
 

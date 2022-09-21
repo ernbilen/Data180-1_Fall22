@@ -83,7 +83,7 @@ c) Which histogram more closely follows or rule of thumb for the suggested numbe
 ```{r}
 
 ```
-The first histogram.
+
 
 ## Task 3 
 a) What is the type of variable `Passengers`? (Categorical nominal/ordinal or Numerical discrete/continuous?) What happens if we were to make a histogram for `Passengers`? What is the problem with this graph?

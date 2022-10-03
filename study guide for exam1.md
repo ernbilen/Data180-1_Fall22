@@ -1,7 +1,7 @@
-Data 180 **Study guide for Exam 1:**
-This list is created to help you study for exam 1. 
-*Disclaimer:* The topics listed here may not be fully comprehensive. You should refer to
-the notes posted on GitHub, as they form the main source material.
+Data 180 **Study guide for Exam 1:** \\
+This list is created to help you study for exam 1.  \\
+*Disclaimer:* The topics listed here may not be fully comprehensive. You should refer to \\
+the notes posted on GitHub, as they form the main source material. \\
 
 Topic 1: Data Science
 What is Data Science?

@@ -6,12 +6,12 @@
 library(tm) # text mining package
 
 # Instead of that, just read in the speech
-charVector <- scan("speech.txt", character(0), sep = "\n")
+charVector <- scan("https://raw.githubusercontent.com/ernbilen/Data180-2_Fall22/main/data/speech.txt", character(0), sep = "\n")
 head(charVector)
 
 
-posWords <- scan("positive-words.txt", character(0), sep = "\n")  # 2006 items
-negWords <- scan("negative-words.txt", character(0), sep = "\n")  # 4783 items
+posWords <- scan("https://raw.githubusercontent.com/ernbilen/Data180-2_Fall22/main/data/positive-words.txt", character(0), sep = "\n")  # 2006 items
+negWords <- scan("https://raw.githubusercontent.com/ernbilen/Data180-2_Fall22/main/data/negative-words.txt", character(0), sep = "\n")  # 4783 items
 head(posWords,15)
 head(negWords,15)
 
@@ -404,7 +404,6 @@ top_anthems %>%
 
 # How Many Documents for Each Topic?
 top_anthems %>% group_by(topic) %>% summarize(count=n(),av_gamma = mean(gamma)) %>% ggplot(.,aes(x=topic,y=count)) + geom_col()
-
 
 
 

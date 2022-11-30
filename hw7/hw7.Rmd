@@ -25,7 +25,6 @@ knitr::opts_chunk$set(
 ) 
 ```
 
-
 In this homework, we will analyze news headlines data scraped from abcnews, posted on Github in a csv file named `news.csv`.
 
 Read the `news.csv` into R and create the object `news` using
